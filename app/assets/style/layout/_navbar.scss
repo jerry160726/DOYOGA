@@ -1,0 +1,23 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .btn1,
+    .btn2 {
+        display: none;
+    }
+    @include media-breakpoint-up(lg) {
+        .btn1,
+        .btn2 {
+            display: inline-block;
+            border-radius: 16px;
+            &:hover{
+                color: #fff;
+            } 
+        }
+    }
+    .navbar-brand {
+        color: $light;
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,340 @@
+.banner {
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg?raw=true)
+    bottom center;
+  background-size: cover;
+  height: 560px;
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg?raw=true)
+      bottom;
+  }
+  .sub-title {
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .slogan {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .reservation-btn,
+  .intro-btn {
+    border-radius: 4.8px;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 585px;
+    .slogan1 {
+      font-size: 36px;
+      line-height: 54px;
+    }
+    .slogan2 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+}
+
+.advantage-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  .title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .intro {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .adv-intro1,
+  .adv-intro2,
+  .adv-intro3 {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true)
+      center center;
+    background-size: cover;
+    height: 420px;
+    border-radius: 16px;
+    padding: 0;
+    h3 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    p {
+      line-height: 24px;
+    }
+  }
+
+  .adv-intro2 {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true)
+      center center;
+    background-size: auto 420px;
+  }
+  .adv-intro3 {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true)
+      center center;
+    background-size: auto 420px;
+  }
+
+  @include media-breakpoint-up(md) {
+    .adv-intro1,
+    .adv-intro2,
+    .adv-intro3 {
+      height: 252px;
+      h3 {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    .adv-intro2 {
+      background-size: cover;
+    }
+    .adv-intro3 {
+      background-size: cover;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .intro {
+      margin-bottom: 32px;
+    }
+    .adv-intro1,
+    .adv-intro2,
+    .adv-intro3 {
+      height: 420px;
+
+      h3 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .advantage-section {
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+}
+
+.teachers {
+  .teacher-title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .card {
+    padding: 16px;
+    .picture1,
+    .picture2,
+    .picture3 {
+      height: 48px;
+      width: 48px;
+    }
+  }
+  .card-body {
+    padding: 0;
+  }
+  .teacher-name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .teacher-sidephoto {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg?raw=true)
+      center center;
+    background-size: cover;
+    border-radius: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .teachers .card {
+    .picture1 {
+      height: 94px;
+      width: 94px;
+    }
+    .picture2,
+    .picture3 {
+      height: 68px;
+      width: 68px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .ml-off {
+    margin-left: -95px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .pl-off {
+    padding-left: 30px;
+  }
+}
+
+.comfortable-space {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  .container{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .comfo-intro span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .comfo-intro:hover {
+    background: #84c1ff;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .comfo-photo .picture1 {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/carl-barcelo-nqUHQkuVj3c-unsplash.jpg?raw=true)
+      center center;
+    height: 210px;
+    // width: 165px;
+    background-size: cover;
+    border-radius: 16px;
+    margin-right: 15px;
+  }
+
+  .comfo-photo .picture2 {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/white%20round%20table%20near%20brown%20wooden%20chair.jpg?raw=true)
+      center center;
+    height: 210px;
+    // width: 165px;
+    background-size: cover;
+    border-radius: 16px;
+  }
+  .comfo-photo .picture3 {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20blue%20denim%20jeans%20doing%20yoga.jpg?raw=true)
+      center center;
+    height: 210px;
+    // width: 165px;
+    background-size: cover;
+    border-radius: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .comfortable-space {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    .comfo-photo .picture1 {
+      height: 266px;
+      margin-right: 15px;
+    }
+
+    .comfo-photo .picture2 {
+      height: 117px;
+    }
+    .comfo-photo .picture3 {
+      height: 117px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .comfortable-space {
+    .comfo-photo .picture1 {
+      height: 444px;
+    }
+
+    .comfo-photo .picture2 {
+      height: 207px;
+    }
+    .comfo-photo .picture3 {
+      height: 207px;
+    }
+  }
+}
+
+.course{
+  .container-custom {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin: 0 auto;
+
+    h3{
+      font-size: 28px;
+      line-height: 42px;
+    }
+    p{
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .course-intro span {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .course-intro:hover {
+      background: #84c1ff;
+    }
+
+    img{
+      border-radius: 16px;
+    }
+
+    @media (min-width: 576px) {
+      max-width: 540px;
+    }
+    @media (min-width: 768px) {
+      max-width: 720px;
+      padding-top: 56px;
+      padding-bottom: 56px;
+    }
+    @media (min-width: 992px) {
+      max-width: 100%;
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+  }
+  
+  .swiper-wrapper {
+    flex-wrap: nowrap !important;
+    @media (max-width: 992px) {
+      flex-wrap: wrap !important;
+    }
+  }
+  
+  .swiper-slide {
+    width: 100%;
+  }
+  
+  @media (max-width: 992px) {
+    .swiper-slide  {
+      width: 48%;
+      margin: 0.5rem 1%;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .position-sm-absolute {
+      position: absolute;
+    }
+    .course-title {
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
+}

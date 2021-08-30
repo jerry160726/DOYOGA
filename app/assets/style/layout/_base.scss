@@ -1,0 +1,25 @@
+a, h1, h2, h3, h4, h5, h6, p, hr, .row, .col, ul{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+.navbar-brand, .navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0;
+    margin: 0;
+}
+
+.btn-sm{
+    padding: 8px, 16px;
+}
+
+.card{
+    border-radius: 16px;
+}
+
+a{
+    text-decoration:none;
+}
+.container{
+    padding: 0;
+}
