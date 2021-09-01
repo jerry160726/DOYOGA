@@ -4,7 +4,7 @@
   background-size: cover;
   height: 560px;
   width: 100%;
-  @include media-breakpoint-up(lg) {
+  @media (min-width: 992px) {
     background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg?raw=true)
       bottom;
     background-size: cover;
@@ -27,7 +27,7 @@
     border-radius: 4.8px;
   }
 
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     height: 585px;
     .slogan1 {
       font-size: 36px;
@@ -81,7 +81,7 @@
     background-size: auto 420px;
   }
 
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     .adv-intro1,
     .adv-intro2,
     .adv-intro3 {
@@ -99,7 +99,7 @@
     }
   }
 
-  @include media-breakpoint-up(lg) {
+  @media (min-width: 992px) {
     .intro {
       margin-bottom: 32px;
     }
@@ -116,7 +116,7 @@
   }
 }
 
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
   .advantage-section {
     padding-top: 40px;
     padding-bottom: 48px;
@@ -152,7 +152,7 @@
   }
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   .teachers .card {
     .picture1 {
       height: 94px;
@@ -172,7 +172,7 @@
   }
 }
 
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
   .pl-off {
     padding-left: 30px;
   }
@@ -230,7 +230,7 @@
   }
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   .comfortable-space {
     padding-top: 56px;
     padding-bottom: 56px;
@@ -248,7 +248,7 @@
   }
 }
 
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
   .comfortable-space {
     .comfo-photo .picture1 {
       height: 444px;
@@ -364,10 +364,10 @@
   .card-img-top{
     border-radius: 16px 16px 0  0;
     height: 250px;
-    @include media-breakpoint-up(md) {
+    @media (min-width: 768px) {
       border-radius: 16px 0 0 16px;
     }
-    @include media-breakpoint-up(lg) {
+    @media (min-width: 992px) {
       border-radius: 16px 16px 0  0;
     }
   }
@@ -392,5 +392,12 @@
     .card div {
       width: 100%;
     }
+  }
+}
+
+.feedback{
+  h3{
+    font-size: 28px;
+    line-height: 42px;
   }
 }
