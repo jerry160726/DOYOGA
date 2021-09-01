@@ -42,4 +42,37 @@
   breakpointChecker();
 })();
 /* IIFE end */
+// 聽聽他們怎麼說
+
+
+var swiper = new Swiper(".comSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  grid: {
+    rows: 3,
+    fill: 'column'
+  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      grid: {
+        rows: 2,
+        fill: 'row'
+      },
+      spaceBetween: 30
+    },
+    992: {
+      slidesPerView: 3,
+      grid: {
+        rows: 2,
+        fill: 'row'
+      },
+      spaceBetween: 30
+    }
+  }
+});
 //# sourceMappingURL=all.js.map
